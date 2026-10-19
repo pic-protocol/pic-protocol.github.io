@@ -5,6 +5,7 @@ import { HeroSection } from "../components/HeroSection";
 import { TrioSection } from "../components/TrioSection";
 import { AgentBriefSection } from "../components/AgentBriefSection";
 import { SpecificationMapSection } from "../components/SpecificationMapSection";
+import { VideoGallerySection } from "../components/VideoGallerySection";
 import { ArticleScrollSection } from "../components/ArticleScrollSection";
 import { SlackSection } from "../components/SlackSection";
 
@@ -20,6 +21,7 @@ export default function Home(): ReactNode {
         <TrioSection />
         <AgentBriefSection />
         <SpecificationMapSection />
+        <VideoGallerySection />
         <div className="home-article-slack-band">
           <ArticleScrollSection />
           <SlackSection />
