@@ -19,6 +19,7 @@ type Video = {
   title: string;
   image: string;
   href: string;
+  duration: string;
 };
 
 const VIDEOS: Record<LanguageCode, Video[]> = {
@@ -28,12 +29,14 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
       title: "Governing autonomy: if an AI agent causes damage, who is accountable?",
       image: "/img/video-gallery/autonomy-en.jpg",
       href: "https://www.youtube.com/watch?v=3yMNTo1uM28",
+      duration: "6:47",
     },
     {
       id: "residual-risk",
       title: "Governing what remains: the residual risk of AI agents",
       image: "/img/video-gallery/residual-risk-en.jpg",
       href: "https://www.youtube.com/watch?v=mRXr1-_murk",
+      duration: "7:18",
     },
     {
       id: "causal-time",
@@ -41,12 +44,22 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Encoding causal time in the authorization protocol · Same key, different history",
       image: "/img/video-gallery/causal-time-en.jpg",
       href: "https://www.youtube.com/watch?v=liYpy6QaBGo",
+      duration: "11:08",
+    },
+    {
+      id: "temporal-evidence",
+      title:
+        "Temporal evidence: authority and information on one history · A single evidence",
+      image: "/img/video-gallery/temporal-evidence-en.jpg",
+      href: "https://www.youtube.com/watch?v=cWoJiUnwHYg",
+      duration: "4:02",
     },
     {
       id: "pic-model",
       title: "The PIC Model: Why the Confused Deputy Is Impossible",
       image: "/img/video-gallery/pic-model-en.jpg",
       href: "https://www.youtube.com/watch?v=yjAgwxUmO8E",
+      duration: "14:27",
     },
   ],
   it: [
@@ -56,6 +69,7 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Governare l'autonomia: se un agente IA causa un danno, chi ne risponde?",
       image: "/img/video-gallery/autonomy-it.jpg",
       href: "https://www.youtube.com/watch?v=goDQqaztBC8",
+      duration: "7:34",
     },
     {
       id: "residual-risk",
@@ -63,6 +77,7 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Governare ciò che resta: il rischio residuo degli agenti di IA",
       image: "/img/video-gallery/residual-risk-it.jpg",
       href: "https://www.youtube.com/watch?v=OPlosT-VDFk",
+      duration: "8:20",
     },
     {
       id: "causal-time",
@@ -70,12 +85,22 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Codificare il tempo causale nel protocollo di autorizzazione · Stessa chiave, storia diversa",
       image: "/img/video-gallery/causal-time-it.jpg",
       href: "https://www.youtube.com/watch?v=4_6iV_-Wpek",
+      duration: "13:19",
+    },
+    {
+      id: "temporal-evidence",
+      title:
+        "L'evidenza temporale: autorità e informazione su una sola storia · Un'unica evidenza",
+      image: "/img/video-gallery/temporal-evidence-it.jpg",
+      href: "https://www.youtube.com/watch?v=lZxIBI8krLg",
+      duration: "4:54",
     },
     {
       id: "pic-model",
       title: "Il modello PIC: perché il delegato confuso è impossibile",
       image: "/img/video-gallery/pic-model-it.jpg",
       href: "https://www.youtube.com/watch?v=6XBgUrlil9A",
+      duration: "16:39",
     },
   ],
   es: [
@@ -85,6 +110,7 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Gobernar la autonomía: si un agente de IA causa un daño, ¿quién responde por ello?",
       image: "/img/video-gallery/autonomy-es.jpg",
       href: "https://www.youtube.com/watch?v=X0esuRdhWXc",
+      duration: "7:44",
     },
     {
       id: "residual-risk",
@@ -92,6 +118,7 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Gobernar lo que queda: el riesgo residual de los agentes de IA",
       image: "/img/video-gallery/residual-risk-es.jpg",
       href: "https://www.youtube.com/watch?v=WqTDgxyYZuE",
+      duration: "8:17",
     },
     {
       id: "causal-time",
@@ -99,12 +126,22 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
         "Codificar el tiempo causal en el protocolo de autorización · La misma llave, otra historia",
       image: "/img/video-gallery/causal-time-es.jpg",
       href: "https://www.youtube.com/watch?v=VhMn4zZ9QY0",
+      duration: "13:37",
+    },
+    {
+      id: "temporal-evidence",
+      title:
+        "La evidencia temporal: autoridad e información sobre una sola historia · Una única evidencia",
+      image: "/img/video-gallery/temporal-evidence-es.jpg",
+      href: "https://www.youtube.com/watch?v=XGuJPxgHUyA",
+      duration: "5:14",
     },
     {
       id: "pic-model",
       title: "El modelo PIC: por qué el delegado confuso es imposible",
       image: "/img/video-gallery/pic-model-es.jpg",
       href: "https://www.youtube.com/watch?v=OsovSXtNWgY",
+      duration: "16:18",
     },
   ],
 };
@@ -189,9 +226,10 @@ export const VideoGallerySection = () => {
             Explore PIC in your language.
           </h2>
           <p className="m-0 mt-4 max-w-180 text-[17px] font-light leading-8 text-black/58 dark:text-white/55">
-            Four short talks connect AI-agent governance, residual risk, causal
-            time, and the formal PIC Model. This page loads no YouTube content;
-            a video opens on YouTube only after you select it.
+            Five short talks connect AI-agent governance, residual risk, causal
+            time, temporal evidence, and the formal PIC Model. This page loads
+            no YouTube content; a video opens on YouTube only after you select
+            it.
           </p>
         </div>
 
@@ -280,9 +318,17 @@ export const VideoGallerySection = () => {
                   <h3 className="font-[Clash_Grotesk]! m-0 mt-3 text-[22px] font-medium leading-tight tracking-normal md:text-[25px]">
                     {video.title}
                   </h3>
-                  <span className="mt-auto inline-block pt-5 text-sm font-semibold text-[#00543D] dark:text-[#25c2a0]">
-                    Watch video -&gt;
-                  </span>
+                  <div className="mt-auto flex items-center justify-between gap-4 pt-5">
+                    <span className="text-sm font-semibold text-[#00543D] dark:text-[#25c2a0]">
+                      Watch video -&gt;
+                    </span>
+                    <span
+                      className="mono rounded-lg border border-black/10 bg-black/[0.03] px-2.5 py-1 text-xs font-semibold tabular-nums text-black/55 dark:border-white/10 dark:bg-white/[0.05] dark:text-white/60"
+                      aria-label={`Duration ${video.duration}`}
+                    >
+                      {video.duration}
+                    </span>
+                  </div>
                 </div>
               </a>
             ))}
