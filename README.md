@@ -1,11 +1,11 @@
 # PIC Website
 
-> **Attribution Notice**  
-> This website documents the **Provenance Identity Continuity (PIC) Model**,  
-> a theoretical framework created by **Nicola Gallo**.  
->  
-> This website and all related materials are published and maintained by  
-> **Nitro Agility S.r.l.**
+> **Project record**
+> The **Provenance Identity Continuity (PIC) Model** was originally developed
+> by **Nicola Gallo**. Its dated research history and primary publications are
+> recorded in the [PIC Specification](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md#origins-authorship-and-historical-record).
+> The PIC Specifications are published and maintained by **Nitro Agility
+> S.r.l.** as Specification Steward.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -63,6 +63,11 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## License
 
-Content is published under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Code and repository material are governed by this repository's
+[Apache License 2.0](LICENSE) unless a file states otherwise. PIC specification
+materials linked or rendered by the website remain governed by the license in
+the [`pic-spec` repository](https://github.com/pic-protocol/pic-spec/blob/main/LICENSE).
 
-For authorship, attribution requirements, and normative status, see the [PIC Specification](https://github.com/pic-protocol/pic-spec).
+For origin, stewardship, attribution, and canonical-version information, see
+the PIC specification repository's
+[NOTICE](https://github.com/pic-protocol/pic-spec/blob/main/NOTICE.md).

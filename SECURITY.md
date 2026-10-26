@@ -1,16 +1,14 @@
 # Security Policy
 
-This document describes how security vulnerabilities related to the
-PIC Protocol implementation are handled.
+This document describes how security vulnerabilities related to the PIC
+Protocol website and its publication pipeline are handled.
 
 ---
 
 ## Supported Versions
 
-Only the latest stable release is supported for security updates
-at any given time.
-
-Earlier versions are provided for reference only and are not maintained.
+Only the currently deployed website and the current default branch are
+supported for security updates.
 
 ---
 
@@ -20,7 +18,7 @@ Security issues **must be reported privately**.
 
 Please use GitHub Security Advisories:
 
-https://github.com/pico-protocol/pic-rs/security/advisories/new
+https://github.com/pic-protocol/pic-protocol.github.io/security/advisories/new
 
 Do **not** open public issues for security vulnerabilities.
 
@@ -34,7 +32,7 @@ We consider vulnerabilities that could compromise the:
 - integrity,
 - or availability
 
-of this implementation or its users.
+of the website, its build and deployment pipeline, or its users.
 
 ---
 
@@ -62,25 +60,5 @@ Security response and coordination are handled by **Nitro Agility S.r.l.**
 
 ---
 
-## Disclaimer
-
-This security policy is provided for **informational purposes only**.
-
-Nothing in this document creates any obligation, warranty, or liability for:
-
-- Nitro Agility S.r.l.
-- The PIC Model creator (Nicola Gallo)
-- Project maintainers or contributors
-
-Specifically:
-
-- There is **no obligation** to respond to any report within any timeframe
-- There is **no obligation** to fix, patch, or remediate any reported issue
-- There is **no obligation** to provide support, updates, or maintenance
-- There is **no warranty** that any issue will be addressed
-
-Response timelines stated above are **goals, not commitments**.
-
-All security matters are handled at the sole discretion of Nitro Agility S.r.l.
-
-This policy may be changed at any time without notice.
+Security issues in the PIC Specifications themselves should instead be reported
+through the [`pic-spec` security policy](https://github.com/pic-protocol/pic-spec/blob/main/SECURITY.md).

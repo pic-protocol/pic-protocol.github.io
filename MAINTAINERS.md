@@ -1,72 +1,43 @@
-# PIC Maintainers
+# PIC Website Maintainers
 
-This document defines the scope and limits of the *Maintainer* role for the
-official PIC repositories.
+This document defines the operational Maintainer role for the PIC Protocol
+website repository.
 
-Maintainer status concerns **repository operations only** and does **not**
-create, transfer, modify, or imply:
-
-- authorship or co-authorship of the PIC Model,
-- ownership of the PIC Model or the PIC Specification,
-- normative authority over the PIC Model or the PIC Specification,
-- legal, professional, or operational responsibility for the PIC Model.
-
-All such matters are defined **exclusively** in the PIC Specification
-(see Appendix B).
-
----
+Scientific history is recorded in the PIC Specifications, licensing for this
+repository in [LICENSE](LICENSE), contribution terms in
+[CONTRIBUTING.md](CONTRIBUTING.md), and project roles in
+[GOVERNANCE.md](GOVERNANCE.md).
 
 ## Responsibilities
 
-Maintainers MAY:
+Maintainers may:
 
-- manage repository operations,
-- review contributions,
-- merge changes,
-- coordinate issues and documentation.
+- manage repository operations and dependencies;
+- review and merge accepted contributions;
+- coordinate issues, releases, and website deployment;
+- maintain links to canonical specifications and implementations; and
+- correct website content that has become stale or inconsistent with its
+  cited source.
 
-Maintainers MAY NOT:
+Maintainers may not independently designate a specification as canonical,
+change released normative text through the website, rewrite the dated research
+record, or imply endorsement on behalf of the project or its contributors.
 
-- alter authorship or attribution,
-- declare or imply canonical status of any document,
-- modify normative authority of the PIC Specification,
-- create obligations, warranties, or liabilities regarding the PIC Model.
+## Role Assignment
 
-Final editorial and normative authority remains with the
-**Specification Steward**, as defined in the PIC Specification.
+Maintainer access is assigned and modified by **Nitro Agility S.r.l.**, the
+website maintainer and current Specification Steward. Repository permissions
+are operational and do not change authorship, scientific provenance, or the
+normative authority of PIC documents.
 
----
+## Publication Responsibility
 
-## Role Assignment and Changes
+Website changes should preserve the distinction among:
 
-Maintainer roles:
+- the PIC Model and its primary research publications;
+- canonical PIC Specification releases;
+- public draft branches and generated previews; and
+- implementations and explanatory material.
 
-- are assigned and modified solely by the Specification Steward,
-- cannot be self-assigned,
-- cannot be transferred,
-- cannot be granted or altered through pull requests.
-
-Any attempt to imply otherwise through documentation, repository metadata,
-or project process is invalid.
-
----
-
-## Disclaimer and Limitation of Liability
-
-Maintainer status is **voluntary and operational only**.
-
-Maintainers:
-
-- have **no obligation** to review, respond, merge, or maintain any contribution
-- have **no obligation** to provide support, updates, or fixes
-- provide **no warranty** of any kind regarding repository contents
-- assume **no personal liability** for repository contents or operations
-
-All maintainer actions are performed **on behalf of Nitro Agility S.r.l.**
-
-Any claims, disputes, or legal actions related to this repository or its
-contents must be directed to **Nitro Agility S.r.l.**, not to individual
-maintainers.
-
-To the maximum extent permitted by applicable law, individual maintainers
-disclaim all personal liability arising from their maintainer activities.
+When those sources differ, the website must state which source and version it
+describes rather than silently selecting or merging claims.

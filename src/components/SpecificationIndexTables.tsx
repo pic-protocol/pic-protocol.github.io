@@ -27,17 +27,6 @@ const LinkCell = ({ href, children }: LinkCellProps) => {
   );
 };
 
-const getLegalDocument = () =>
-  CURRENT_SPEC_RELEASE.documents?.find((document) => document.id === "legal");
-
-export const CurrentLegalAppendicesLink = ({
-  children = "Legal Appendices",
-}: {
-  children?: string;
-}) => (
-  <LinkCell href={getLegalDocument()?.html}>{children}</LinkCell>
-);
-
 const DocumentRow = ({ document }: { document: SpecDocument }) => (
   <tr>
     <td>

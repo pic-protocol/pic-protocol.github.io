@@ -167,9 +167,9 @@ This Code of Conduct governs **community behavior only**.
 Nothing in this document creates any legal obligation, liability, or duty of care for:
 
 - Nitro Agility S.r.l.  
-- The PIC Model creator (Nicola Gallo)  
 - Project maintainers or contributors  
 
-For legal terms, licensing, and liability limitations, refer to the repository
-LICENSE file and the PIC Specification:
-[https://github.com/pic-protocol/pic-spec](https://github.com/pic-protocol/pic-spec)
+Licensing for this repository is defined by its [LICENSE](LICENSE). The dated
+origin and research history of the PIC Model and the stewardship of the PIC
+Specifications are recorded in the
+[PIC Specification](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md#origins-authorship-and-historical-record).

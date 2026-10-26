@@ -9,12 +9,11 @@ const HUB = { x: 600, y: 420 };
 const NODE_WIDTH = 268;
 const NODE_HEIGHT = 236;
 const NODE_POSITIONS = [
-  { x: 52, y: 128 },
   { x: 466, y: 42 },
-  { x: 880, y: 128 },
-  { x: 880, y: 476 },
-  { x: 466, y: 562 },
-  { x: 52, y: 476 },
+  { x: 52, y: 170 },
+  { x: 880, y: 170 },
+  { x: 52, y: 514 },
+  { x: 880, y: 514 },
 ];
 
 const getNodePosition = (index: number) =>

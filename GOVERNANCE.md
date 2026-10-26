@@ -1,67 +1,74 @@
-# Governance
+# PIC Website Governance
 
-This repository is developed and maintained by **Nitro Agility S.r.l.**
-
----
+This repository contains the public PIC Protocol website and the code used to
+build and publish it. **Nitro Agility S.r.l.** maintains the repository and
+acts as Specification Steward for the PIC Specifications.
 
 ## Scope
 
-This document governs the **PIC Protocol Rust implementation** only.
+This governance applies to website content, navigation, presentation, build
+configuration, and publication. It does not make the website a substitute for
+the canonical specification sources.
 
-For governance of the PIC Model and PIC Specification, refer to the
-[PIC Spec repository](https://github.com/pic-protocol/pic-spec).
-
----
+The canonical PIC Specification documents are maintained in the
+[`pic-spec` repository](https://github.com/pic-protocol/pic-spec). Mathematical
+and scientific claims on the website should remain traceable to the primary
+publications listed in the specification's
+[Origins, Authorship, and Historical Record](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md#origins-authorship-and-historical-record).
 
 ## Roles
 
-### Project Owner
+### Website Steward
 
-**Nitro Agility S.r.l.** is the owner and maintainer of this repository.
+**Nitro Agility S.r.l.** is responsible for:
 
-All final decisions on code inclusion, releases, and project direction
-rest with Nitro Agility S.r.l.
+- maintaining and publishing the website;
+- appointing repository maintainers;
+- reviewing and accepting contributions;
+- keeping public links aligned with canonical specification releases; and
+- preventing the website from presenting drafts, implementations, or mirrors
+  as more authoritative than their source documents.
 
 ### Maintainers
 
-Maintainers are granted write access by Nitro Agility S.r.l. to review
-and merge contributions.
+Maintainers review pull requests, manage issues, update dependencies, and
+operate the publication workflow. Repository permissions do not alter the
+scientific history of the PIC Model or the normative content of a released PIC
+Specification.
 
-A list of maintainers is kept in [MAINTAINERS.md](MAINTAINERS.md).
+### Contributors
 
----
+Contributors may provide code, documentation, design, accessibility work,
+translations, review, or corrections under [CONTRIBUTING.md](CONTRIBUTING.md).
+Concrete contributions are credited through repository history and, where
+appropriate, acknowledgments.
 
-## Decision-Making
+## Decision Process
 
-All changes are proposed via pull request.
+Changes are proposed through issues and pull requests. Accuracy, accessibility,
+security, compatibility, and consistency with canonical PIC sources are part
+of review. Consensus is preferred; Nitro Agility S.r.l. makes the final
+publication decision when consensus cannot be reached.
 
-Maintainers review contributions for:
+## Origin and Stewardship
 
-- correctness and code quality
-- alignment with PIC Protocol and PIC Model invariants
-- test coverage and documentation
+The **Provenance Identity Continuity (PIC) Model** was originally developed by
+**Nicola Gallo**. The PIC Specifications translate the formal model into
+technical requirements and are published and maintained by **Nitro Agility
+S.r.l.** as Specification Steward. The dated research record is maintained in
+each current PIC 0.2 specification so that every document preserves this
+provenance when distributed independently.
 
-Final decisions on inclusion rest with Nitro Agility S.r.l.
+## Licensing
 
----
-
-## License
-
-Code in this repository is licensed under the **Apache License 2.0**.
-
----
-
-## PIC Model Authorship
-
-The **PIC Model** is original theoretical work created by **Nicola Gallo**.
-
-Nothing in this repository or governance process transfers, assigns, or
-alters authorship of the PIC Model.
-
----
+Licensing for this repository is defined by [LICENSE](LICENSE). PIC
+specification materials linked or rendered by this website remain governed by
+the license and notice in the `pic-spec` repository.
 
 ## References
 
-- [PIC Specification](https://github.com/pic-protocol/pic-spec)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [PIC Specification 0.2](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md)
+- [PIC project notice](https://github.com/pic-protocol/pic-spec/blob/main/NOTICE.md)
+- [Contributing](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Maintainers](MAINTAINERS.md)

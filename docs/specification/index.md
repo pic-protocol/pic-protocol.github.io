@@ -2,10 +2,7 @@
 sidebar_position: 2
 ---
 
-import {
-  CurrentLegalAppendicesLink,
-  SpecificationIndexTables,
-} from '@site/src/components/SpecificationIndexTables';
+import {SpecificationIndexTables} from '@site/src/components/SpecificationIndexTables';
 
 # PIC Specification
 
@@ -15,20 +12,19 @@ rules and invariants that underlie every **PIC-compliant protocol**. It is
 guarantee, leaving wire formats, transports, cryptographic suites, and
 deployment choices to the protocols built on top of it.
 
-Since version 0.2 the specification is published as a **document set**: an
-entry point whose **Documents table** indexes every subordinate
-specification, plus shared
-<CurrentLegalAppendicesLink />
-incorporated by reference into every document.
+Version 0.2 is published as a **five-document set**: the PIC Specification
+entry point plus Prover and Verifier, Revocation, Sandboxed Execution, and
+Architecture and Deployment. Each document carries its own status, license
+notice, authorship, historical record, references, and publication history so
+that it remains intelligible when distributed independently.
 
 :::info Public drafts
 
-These specifications are **open, actively developed public drafts**. They are independently developed and are not standards, so
-they carry no IETF, RFC, ISO, W3C, or other standards-body status — the RFC-style rendering is simply a familiar, readable
-format, and details may still change between versions. As with an open-source license, they are published under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and provided **"as is", without warranties or conditions of any
-kind**; implementers and users assume all risks of their use. For the complete picture, see the
-[status and legal notice](#status-and-legal-notice) below.
+These specifications are **open, actively developed public drafts**. They are
+independently developed, have not been adopted by a standards-development
+organization, and are not standards. RFC-style rendering is a familiar
+publication format and does not confer standards status. Details may still
+change between versions. See [status, license, and attribution](#status-license-and-attribution).
 
 :::
 
@@ -38,14 +34,51 @@ All releases are **drafts**: expect clarifications, additional normative
 text, and structural adjustments driven by community feedback and
 implementation experience from emerging **PIC-compliant protocols**.
 
-## Status and legal notice
+## Origins, authorship, and historical record
+
+The **Provenance Identity Continuity (PIC) Model** was originally developed by
+**Nicola Gallo** as a formal framework for reasoning about causal authority
+propagation across distributed execution. Its connected foundations include
+Proof of Relationship (PoR), Proof of Continuity (PoC), authority
+non-expansion, relational attenuation, and event-level causal provenance.
+
+The PIC Model is distinct from the PIC Specifications, which translate its
+formal results into technical requirements and are published and maintained by
+**Nitro Agility S.r.l.** as **Specification Steward**.
+
+The publicly verifiable research record is:
+
+- **1 December 2025 — initial public PIC Model working paper.** Nicola Gallo,
+  *PIC Model — Provenance Identity Continuity for Distributed Execution
+  Systems*. Archived working paper. Zenodo.
+  [DOI 10.5281/zenodo.17777421](https://doi.org/10.5281/zenodo.17777421).
+- **5 December 2025 — authority-propagation analysis.** Nicola Gallo,
+  *Authority Propagation Models: PoP vs PoC and the Confused Deputy Problem*.
+  Zenodo. [DOI 10.5281/zenodo.17833000](https://doi.org/10.5281/zenodo.17833000).
+- **9 July 2026 — formal Proof-of-Continuity paper.** Nicola Gallo,
+  *Proof-of-Continuity: A Temporal Model for Authority Propagation in
+  Distributed Systems and AI Agents*. arXiv:2607.08906.
+  [arxiv.org/abs/2607.08906](https://arxiv.org/abs/2607.08906).
+- **25 September 2026 — relational authority theory.** Nicola Gallo,
+  *Beyond Proof of Possession: A Relational Theory of Authority*. Zenodo.
+  [DOI 10.5281/zenodo.23102206](https://doi.org/10.5281/zenodo.23102206).
+- **2 October 2026 — event-level causal closure.** Nicola Gallo,
+  *Full Provenance on the COSS Causal Axis: An Event-Level Closure of Causal
+  Attribution and Confused-Deputy Exclusion*. Zenodo.
+  [DOI 10.5281/zenodo.23102373](https://doi.org/10.5281/zenodo.23102373).
+
+The PIC Specification 0.2 family began public publication on **15 July 2026**
+and was subsequently revised as the formal record developed. The same
+standalone historical record is included in every current 0.2 specification.
+
+## Status, license, and attribution
 
 Every PIC document published here is an **independently developed draft**, not a standard.
 
-- It has **not** been adopted, endorsed, approved, or published by the IETF, IRTF, IAB, RFC Editor, ISO, IEC, W3C, CNCF,
-  OpenID Foundation, or any other standards-development organization.
-- It is **not** an RFC, an Internet Standard, or an official work item of any working group or standards body. The RFC-style
-  HTML / text / XML rendering is a formatting choice only and implies no such status.
+- It has **not** been adopted, endorsed, approved, or published by a
+  standards-development organization.
+- The RFC-style HTML, text, and XML renderings are publication formats only
+  and do not imply standards status.
 - It is published solely for public review, research, experimentation, and implementation feedback, and **may be revised,
   replaced, or withdrawn at any time**.
 - Publication does **not** constitute certification, endorsement, security approval, interoperability assurance, or regulatory
@@ -53,6 +86,9 @@ Every PIC document published here is an **independently developed draft**, not a
 - **Implementers use these drafts entirely at their own risk.** Any implementation, interoperability statement, or conformance
   claim applies only to the exact document version referenced.
 
-PIC documents are published and maintained by **Nitro Agility S.r.l.** as **Specification Steward**. The full legal terms —
-disclaimer, limitation of liability, licensing, and attribution — are in the
-<CurrentLegalAppendicesLink />.
+PIC specification materials are available under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The repository
+[LICENSE](https://github.com/pic-protocol/pic-spec/blob/main/LICENSE) contains
+the license text, while [NOTICE](https://github.com/pic-protocol/pic-spec/blob/main/NOTICE.md)
+summarizes origin, stewardship, attribution, canonical versions, and warranty
+information without adding restrictions to the license.

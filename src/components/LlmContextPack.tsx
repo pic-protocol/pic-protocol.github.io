@@ -20,10 +20,6 @@ const SOURCES: SourceFile[] = [
     url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/pic-spec.md",
   },
   {
-    path: "pic-spec/draft/0.2/pic-legal.md",
-    url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/pic-legal.md",
-  },
-  {
     path: "pic-spec/draft/0.2/pic-prover-verifier-spec.md",
     url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/pic-prover-verifier-spec.md",
   },
@@ -38,6 +34,14 @@ const SOURCES: SourceFile[] = [
   {
     path: "pic-spec/draft/0.2/pic-architecture-deployment-spec.md",
     url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/pic-architecture-deployment-spec.md",
+  },
+  {
+    path: "pic-spec/NOTICE.md",
+    url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/NOTICE.md",
+  },
+  {
+    path: "pic-spec/LICENSE",
+    url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/LICENSE",
   },
   {
     path: "pic-model/draft/0.1/pic-model-math/pic-model.md",
@@ -72,10 +76,10 @@ function buildPack(states: FileState[]): string {
       "(included below): follow them before answering questions about PIC.",
       "-".repeat(72),
       "NOTICE — READ BEFORE USE",
-      "The documents in this pack are published under the Creative Commons",
-      'Attribution 4.0 International (CC BY 4.0) license and are provided "as',
-      'is", without warranty of any kind; the governing legal terms are those',
-      "in the included pic-legal.md. This pack is a comprehension aid, not a",
+      "The applicable license text and project attribution information are",
+      "included as pic-spec/LICENSE and pic-spec/NOTICE.md. Each source remains",
+      "governed by the terms stated in its own repository or file. This pack is",
+      "a comprehension aid, not a",
       "substitute for reading the primary sources: by using it, the user",
       "undertakes to read and study the sources themselves. LLM output",
       "produced from this material can be wrong or misleading; no",

@@ -1,108 +1,67 @@
-# Contributing to PIC Protocol Implementation
+# Contributing to the PIC Protocol Website
 
-Thank you for your interest in contributing to this **PIC Protocol** implementation.
+Thank you for contributing to the public PIC Protocol website. This repository
+contains the Docusaurus application, public explanatory material, and the data
+that links the website to canonical PIC specifications and implementations.
 
-This repository contains a reference implementation of the PIC Protocol, developed and maintained by **Nitro Agility S.r.l.**
+## Scope
 
----
+Contributions may include:
 
-## 1. Repository Scope
+- corrections to links, dates, terminology, or citations;
+- clearer technical explanations and diagrams;
+- accessibility, navigation, design, or performance improvements;
+- build, dependency, and deployment maintenance; and
+- alignment updates following a PIC specification or implementation release.
 
-This repository implements the **PIC Protocol** as defined in the  
-[PIC Specification](https://github.com/pic-protocol/pic-spec).
+The website explains and links to PIC; it does not redefine the PIC Model or
+the normative requirements of a PIC Specification. Technical claims should be
+traceable to the canonical source document.
 
-For licensing, legal terms, and attribution requirements related to the PIC Model
-and PIC Specification, refer to the PIC Spec repository.
+## Origin and Source Integrity
 
----
+The **Provenance Identity Continuity (PIC) Model** was originally developed by
+**Nicola Gallo**. Its dated public research record is listed in the
+[PIC Specification](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md#origins-authorship-and-historical-record).
+The PIC Specifications are published and maintained by **Nitro Agility S.r.l.**
+as Specification Steward.
 
-## 2. Theoretical Foundation
+Contributions receive credit for the concrete work submitted. They must not
+rewrite the dated research record, imply endorsement, or present a website
+summary, implementation, branch, preview, or fork as a canonical specification.
 
-The **PIC Model** (Provenance Identity Continuity) is original theoretical work
-created by **Nicola Gallo**.
+## Contribution Process
 
-This repository implements the PIC Protocol based on that model.
-Nothing in this repository transfers, assigns, or alters authorship of the PIC Model.
+1. Open or identify an issue for substantive work.
+2. Create a focused branch and scoped commits.
+3. Update every affected link, page, data source, and redirect.
+4. Run `npm run typecheck` and `npm run build`.
+5. Open a pull request describing the visible and technical effects.
 
----
+Maintainers may request revisions or decline changes that conflict with the
+project scope, canonical PIC sources, security requirements, or accessibility
+expectations.
 
-## 3. Governance and Ownership
+## Licensing and Right to Contribute
 
-This repository is developed, published, and maintained by  
-**Nitro Agility S.r.l.**
+Unless a file states otherwise, contributions are submitted under this
+repository's [Apache License 2.0](LICENSE). By submitting a contribution, you
+confirm that you created it or otherwise have the right to submit it, that it
+contains no confidential material, and that any third-party material and its
+license are identified.
 
-All contributions made by employees, associates, contractors, or co-founders
-of Nitro Agility S.r.l. — regardless of the account, platform, or method used —
-are made **on behalf of Nitro Agility S.r.l.** and not in a personal capacity.
+PIC specification materials fetched or linked from another repository remain
+governed by that source repository's license.
 
----
+## Automated Language Assistance
 
-## 4. External Contributors
+Automated language assistance may be used for editing, formatting, or analysis.
+The human contributor remains responsible for accuracy, originality,
+licensing, citations, and the content submitted.
 
-Contributors not acting on behalf of Nitro Agility S.r.l. ("External Contributors")
-are welcome to submit contributions.
+## Conduct and Questions
 
-By submitting a contribution, External Contributors represent and warrant that:
-
-1. **Right to Submit** — They have the legal right to submit the contribution  
-2. **Original Work** — The contribution is original or all necessary rights
-   have been obtained  
-3. **No Infringement** — The contribution does not infringe any third-party rights  
-4. **No Encumbrances** — The contribution is free of restrictions that would
-   prevent use under the repository license
-
-External Contributors:
-
-- Provide contributions **"as is"**
-- Are **solely responsible** for their contributions
-- Assume **all liability** arising from their contributions
-
----
-
-## 5. Indemnification
-
-By submitting a contribution, External Contributors agree to **indemnify and hold harmless**
-**Nitro Agility S.r.l.**, its employees, associates, contractors, and the
-**PIC Model creator (Nicola Gallo)** from any claims, damages, losses, or expenses
-(including reasonable legal fees) arising from:
-
-- The contribution
-- Any claim that the contribution infringes third-party rights
-- Any breach of the representations in Section 4
-
----
-
-## 6. License
-
-All code in this repository is licensed under the **Apache License 2.0**.
-
-By submitting a contribution, you agree that your contribution is licensed
-under the Apache License 2.0.
-
----
-
-## 7. Contribution Process
-
-1. Fork the repository  
-2. Create a feature branch  
-3. Make changes with clear, scoped commits  
-4. Open a Pull Request describing the change
-
-Maintainers may request clarification, revision, or decline changes.
-
----
-
-## 8. Code of Conduct
-
-All participants must follow the project's [Code of Conduct](CODE_OF_CONDUCT.md).
-
-Professional, good-faith technical discussion is expected.
-
----
-
-## 9. Questions
-
-For questions about this implementation or contributions, open an issue.
-
-For questions about the PIC Model or PIC Specification, refer to the
-[PIC Spec repository](https://github.com/pic-protocol/pic-spec).
+All participants must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Technical disagreement is welcome when it is specific, evidence-based, and
+respectful. Questions and proposed corrections should be opened in the issue
+tracker.

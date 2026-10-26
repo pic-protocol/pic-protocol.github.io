@@ -34,8 +34,11 @@ specifications** of the PIC Specification, indexed in the **Documents table**
 of the entry point
 [`pic-spec.md`](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-spec.md).
 Each MUST declare the PIC Specification version it implements, MUST NOT alter
-the PIC Model invariants, and incorporates the
-[PIC Legal Appendices](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.2/pic-legal.md)
-by reference.
+the PIC Model invariants, and SHOULD identify its status, canonical source,
+applicable license, authors or editors, stewardship, and the historical record
+needed for independent distribution. Repository-level license and attribution
+information is maintained in the PIC specification repository's
+[LICENSE](https://github.com/pic-protocol/pic-spec/blob/main/LICENSE) and
+[NOTICE](https://github.com/pic-protocol/pic-spec/blob/main/NOTICE.md).
 
 **No protocol specification has been published yet.**
