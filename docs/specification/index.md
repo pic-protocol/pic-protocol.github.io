@@ -12,11 +12,12 @@ rules and invariants that underlie every **PIC-compliant protocol**. It is
 guarantee, leaving wire formats, transports, cryptographic suites, and
 deployment choices to the protocols built on top of it.
 
-Version 0.2 is published as a **five-document set**: the PIC Specification
-entry point plus Prover and Verifier, Revocation, Sandboxed Execution, and
-Architecture and Deployment. Each document carries its own status, license
-notice, authorship, historical record, references, and publication history so
-that it remains intelligible when distributed independently.
+Version 0.2 is published as a **six-document set**: the PIC Specification
+entry point plus Prover and Verifier, Revocation, Sandboxed Execution,
+Architecture and Deployment, and COSS Temporal Evidence. Each document carries
+its own status, license notice, authorship, historical record, references, and
+publication history so that it remains intelligible when distributed
+independently.
 
 :::info Public drafts
 
@@ -66,6 +67,12 @@ The publicly verifiable research record is:
   *Full Provenance on the COSS Causal Axis: An Event-Level Closure of Causal
   Attribution and Confused-Deputy Exclusion*. Zenodo.
   [DOI 10.5281/zenodo.23102373](https://doi.org/10.5281/zenodo.23102373).
+- **10–13 November 2026 — IEEE NCA 2026 conference paper (forthcoming).**
+  Nicola Gallo, Stefano Silvestri, and Antonio Radesca, *Authority Continuity
+  for Verifiable Lineage in Distributed Systems and AI Agents*. Accepted for
+  the 24th IEEE International Symposium on Network Computing and Applications
+  (NCA 2026). [Official conference page](https://www.nca-ieee.org/2026/). The
+  IEEE Xplore DOI will be added as soon as it becomes available.
 
 The PIC Specification 0.2 family began public publication on **15 July 2026**
 and was subsequently revised as the formal record developed. The same

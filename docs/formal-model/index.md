@@ -6,7 +6,8 @@ sidebar_position: 1
 
 The **Provenance Identity Continuity (PIC) Model** was originally developed by
 **Nicola Gallo** as a formal framework for causal authority propagation across
-distributed execution. The research record spans five dated publications.
+distributed execution. The research record spans six dated publications,
+including one forthcoming conference paper.
 Three complementary proof artifacts accompany that record: Lean proves the
 abstract mathematics, Tamarin checks stateful message-level safety, and
 ProVerif gives an independent symbolic check of the authentication core.
@@ -20,6 +21,7 @@ ProVerif gives an independent symbolic check of the authentication core.
 | 9 July 2026 | Proof-of-Continuity: A Temporal Model for Authority Propagation in Distributed Systems and AI Agents | Nicola Gallo | Formal temporal foundation of Proof of Relationship, Proof of Continuity, and authority non-expansion. | [arXiv:2607.08906](https://arxiv.org/abs/2607.08906) |
 | 25 September 2026 | Beyond Proof of Possession: A Relational Theory of Authority | Nicola Gallo | Relational authority theory separating possession from authority admissibility and defining relational attenuation. | [DOI 10.5281/zenodo.23102206](https://doi.org/10.5281/zenodo.23102206) |
 | 2 October 2026 | Full Provenance on the COSS Causal Axis: An Event-Level Closure of Causal Attribution and Confused-Deputy Exclusion | Nicola Gallo | Event-level causal closure, conservative joins, and confused-deputy exclusion across PIC and COSS. | [DOI 10.5281/zenodo.23102373](https://doi.org/10.5281/zenodo.23102373) |
+| 10–13 November 2026 (forthcoming) | Authority Continuity for Verifiable Lineage in Distributed Systems and AI Agents | Nicola Gallo; Stefano Silvestri; Antonio Radesca | Accepted conference paper connecting authority continuity with verifiable lineage in distributed systems and AI agents. | [IEEE NCA 2026](https://www.nca-ieee.org/2026/); IEEE Xplore DOI to be added when available. |
 
 ## Proof artifacts
 
