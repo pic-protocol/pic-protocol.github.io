@@ -36,8 +36,8 @@ const SOURCES: SourceFile[] = [
     url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/pic-architecture-deployment-spec.md",
   },
   {
-    path: "pic-spec/draft/0.2/coss-evidences.md",
-    url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/coss-evidences.md",
+    path: "pic-spec/draft/0.2/coss-evidence-record-spec.md",
+    url: "https://raw.githubusercontent.com/pic-protocol/pic-spec/refs/heads/main/draft/0.2/coss-evidence-record-spec.md",
   },
   {
     path: "pic-spec/NOTICE.md",

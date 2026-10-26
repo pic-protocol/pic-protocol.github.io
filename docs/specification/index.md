@@ -14,7 +14,8 @@ deployment choices to the protocols built on top of it.
 
 Version 0.2 is published as a **six-document set**: the PIC Specification
 entry point plus Prover and Verifier, Revocation, Sandboxed Execution,
-Architecture and Deployment, and COSS Temporal Evidence. Each document carries
+Architecture and Deployment, and Causally Ordered Security-State (COSS)
+Evidence Record. Each document carries
 its own status, license notice, authorship, historical record, references, and
 publication history so that it remains intelligible when distributed
 independently.
