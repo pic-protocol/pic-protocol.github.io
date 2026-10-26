@@ -79,6 +79,23 @@ The PIC Specification 0.2 family began public publication on **15 July 2026**
 and was subsequently revised as the formal record developed. The same
 standalone historical record is included in every current 0.2 specification.
 
+### Visual references
+
+These supplementary videos provide visual explanations of causal time,
+same-history evidence, and full provenance in PIC and COSS. They are
+informative and do not replace the formal publications or define conformance
+requirements.
+
+- **18 October 2026 — causal time in authorization.** Permguard,
+  *[Encoding causal time in the authorization protocol · Same key, different
+  history](https://www.youtube.com/watch?v=liYpy6QaBGo)*.
+- **19 October 2026 — authority and information on one history.** Permguard,
+  *[Temporal evidence: authority and information on one history · A single
+  evidence](https://www.youtube.com/watch?v=cWoJiUnwHYg)*.
+- **20 October 2026 — agentic loops and effect provenance.** Permguard,
+  *[Agentic loops and full provenance: the evidence of every
+  effect](https://www.youtube.com/watch?v=yceBw8TD6Ek)*.
+
 ## Status, license, and attribution
 
 Every PIC document published here is an **independently developed draft**, not a standard.

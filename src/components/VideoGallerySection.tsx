@@ -55,6 +55,13 @@ const VIDEOS: Record<LanguageCode, Video[]> = {
       duration: "4:02",
     },
     {
+      id: "full-provenance",
+      title: "Agentic loops and full provenance: the evidence of every effect",
+      image: "/img/video-gallery/full-provenance-en.jpg",
+      href: "https://www.youtube.com/watch?v=yceBw8TD6Ek",
+      duration: "10:46",
+    },
+    {
       id: "pic-model",
       title: "The PIC Model: Why the Confused Deputy Is Impossible",
       image: "/img/video-gallery/pic-model-en.jpg",
@@ -226,10 +233,10 @@ export const VideoGallerySection = () => {
             Explore PIC in your language.
           </h2>
           <p className="m-0 mt-4 max-w-180 text-[17px] font-light leading-8 text-black/58 dark:text-white/55">
-            Five short talks connect AI-agent governance, residual risk, causal
-            time, temporal evidence, and the formal PIC Model. This page loads
-            no YouTube content; a video opens on YouTube only after you select
-            it.
+            A growing set of short talks connects AI-agent governance,
+            residual risk, causal time, temporal evidence, full provenance,
+            and the formal PIC Model. This page loads no YouTube content; a
+            video opens on YouTube only after you select it.
           </p>
         </div>
 
